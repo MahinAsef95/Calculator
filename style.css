@@ -1,0 +1,86 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    font-size: 0;
+    background-color: black;
+}
+
+.card:hover{
+
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.calc-head #result{
+
+    height: 100px;
+    width: 335px;
+    margin-bottom: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    background-color: lightsalmon;
+}
+
+.btn{
+
+    font-weight: bolder;
+    width: 87px;
+    height: 70px;
+    background-color: darkslategray;
+    color: aliceblue;
+
+}
+
+.btn:hover{
+
+    background-color: lightgreen;
+
+
+}
+
+.btn1{
+    font-weight: bolder;
+    width: 87px;
+    height: 70px;
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+
+.btn1:hover{
+
+    background-color: lightslategrey;
+}
+
+
+
+.btn2{
+    font-weight: bolder;
+    width: 87px;
+    height: 70px;
+    background-color: tomato;
+    color: aliceblue;
+}
+
+.btn2:hover{
+
+    background-color: red;
+}
